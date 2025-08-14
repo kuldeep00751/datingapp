@@ -1,0 +1,88 @@
+views/auth/  =>complete changes
+views/layout/   =>complete
+profile.blade.php   =>complete
+home.blade.php  =>complete
+contact.blade.php  =>complete
+account_rejected.blade.php =>complete
+approval_pending.blade.php =>complete
+chat.blade.php =>complete
+payment_now.blade.php => complete
+view.blade.php => complete
+welcome.blade.php => complete
+
+
+//meeting folder
+
+show_feedback.blade.php =>complete
+show_comment.blade.php =>complete
+follow_up.blade.php =>complete
+liketo_continue=>complete
+feedback.blade.php =>complete
+comment.blade.php =>complete
+cancel_connection.blade.php =>complete
+
+
+//payment folder
+
+failure.blade.php =>complete
+pending.blade.php =>complete
+success.blade.php =>complete
+
+
+//subscription folder
+
+index.blade.php =>complete
+plan.blade.php =>complete
+unscribed.blade.php =>complete
+
+
+//emails folder 
+language file is (emailsText)
+
+accept_invitation.blade.php =>complete
+accept_submit_meeting_details.blade.php =>complete
+auth_submit_meeting_details.blade.php =>complete
+both_accept_invitation.blade.php =>complete
+cancel_connection =>
+chat_mail =>complete
+comment_pending =>complete
+comment_receive =>complete
+contact =>complete
+continue_follow_up =>complete
+email-layout => No changes required
+expire_reminder =>complete
+feedback_pending =>complete
+follow_up_mail =>complete
+footer =>complete
+knowing_more_time =>complete
+manual_review =>complete
+mastering_confirm =>complete
+mastering =>complete
+mastering2 =>complete
+match_connection_cancelled =>complete
+match_warning_mail =>complete
+matched =>no chnage
+member_cancelled =>complete
+member_courtesy =>complete
+member_expired =>complete
+membership_paused =>complete
+membership_reactive =>
+membership_renew =>
+new_chat_message =>
+new_profile_matched =>
+new_profile =>
+payment_reminder =>
+profile_complete =>
+profile_message =>
+profile_search_update =>
+profile_approve =>
+reconsider_invitation =>
+reject_invitation =>
+reject_profile =>
+reminder_profile_match =>
+reminder_profiles =>
+reminder_submit_meeting_status =>
+signature => No changes
+submit_meeting_status =>
+verify =>
+welcome =>complete
