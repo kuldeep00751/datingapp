@@ -19,7 +19,7 @@ class CreateNotificationsTable extends Migration
             $table->unsignedBigInteger('to_id');
             $table->string('message');
             $table->string('message-spanish');
-            $table->text('link')>nullable();
+            $table->text('link')->nullable();
             $table->boolean('read')->default(false);
             $table->timestamps();
         });
