@@ -15,8 +15,8 @@ class CreatePromocodesTable extends Migration
     {
         Schema::create('promocodes', function (Blueprint $table) {
             $table->id();
-            $table->string('code')->unique();
-            $table->string('discount_type', ['amount', 'percentage']);
+            $table->string('code', 100);
+            $table->enum('discount_type', ['amount', 'percentage']);
             $table->decimal('discount', 10, 2); 
             $table->timestamp('expires_at')->nullable();
             $table->integer('duration')->default(0);
